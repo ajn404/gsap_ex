@@ -1,7 +1,6 @@
 import React from "react";
 import FadeInAnimation from "./FadeInAnimation";
 import './App.css';
-
 const words="Hello darkness my old friend,i've come to talk with you again,because a version softly creeping,left it's seed while i was sleeping"
 let str=[];
 words.split(',').map((item,index)=>{
