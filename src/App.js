@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import FadeInAnimation from "./FadeInAnimation";
 import './App.css';
 
@@ -16,7 +16,15 @@ words.split(',').map((item, index) => {
   }} delay={index*1.5} key={index}>{item}</FadeInAnimation>)
   return str
 })
+
 export default function App() {
+  useEffect(()=>{
+    window.addEventListener('click',()=>{
+      window.location.reload()
+    })
+  });
+
+
   return (
       <div className='App'>
         {str}
