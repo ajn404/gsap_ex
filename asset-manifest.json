@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gsap_ex/static/css/main.44317647.chunk.css",
+    "main.js": "/gsap_ex/static/js/main.ba1256f7.chunk.js",
+    "main.js.map": "/gsap_ex/static/js/main.ba1256f7.chunk.js.map",
+    "runtime-main.js": "/gsap_ex/static/js/runtime-main.baf68d24.js",
+    "runtime-main.js.map": "/gsap_ex/static/js/runtime-main.baf68d24.js.map",
+    "static/js/2.df237cc7.chunk.js": "/gsap_ex/static/js/2.df237cc7.chunk.js",
+    "static/js/2.df237cc7.chunk.js.map": "/gsap_ex/static/js/2.df237cc7.chunk.js.map",
+    "static/js/3.5dda5253.chunk.js": "/gsap_ex/static/js/3.5dda5253.chunk.js",
+    "static/js/3.5dda5253.chunk.js.map": "/gsap_ex/static/js/3.5dda5253.chunk.js.map",
+    "index.html": "/gsap_ex/index.html",
+    "static/css/main.44317647.chunk.css.map": "/gsap_ex/static/css/main.44317647.chunk.css.map",
+    "static/js/2.df237cc7.chunk.js.LICENSE.txt": "/gsap_ex/static/js/2.df237cc7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.baf68d24.js",
+    "static/js/2.df237cc7.chunk.js",
+    "static/css/main.44317647.chunk.css",
+    "static/js/main.ba1256f7.chunk.js"
+  ]
+}
