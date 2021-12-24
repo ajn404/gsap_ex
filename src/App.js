@@ -1,5 +1,6 @@
 import React,{useEffect} from "react";
 import FadeInAnimation from "./FadeInAnimation";
+import {Routes} from 'react-router'
 import './App.css';
 
 const words = "Hello darkness my old friend," +
@@ -19,14 +20,15 @@ words.split(',').map((item, index) => {
 
 export default function App() {
   useEffect(()=>{
-    window.addEventListener('click',()=>{
-      window.location.reload()
-    })
   });
+
+  const jumpToApp = ()=>{
+    console.log(Routes)
+  }
 
 
   return (
-      <div className='App'>
+      <div className='App' onClick={jumpToApp}>
         {str}
       </div>
   );
